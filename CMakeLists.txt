@@ -124,10 +124,10 @@ ExternalProject_Add(
     INSTALL_COMMAND ""
 )
 
-set(PDFJS_VERSION v1.1.114)
+set(PDFJS_VERSION v2.114.305)
 ExternalProject_Add(
     PDFjs
-    GIT_REPOSITORY https://github.com/mozilla/pdf.js.git
+    GIT_REPOSITORY https://github.com/dymitar/pdf.js.git
     GIT_TAG ${PDFJS_VERSION}
     SOURCE_DIR ${PDFJS_SOURCE_DIR}
     UPDATE_COMMAND ""
